@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/thunder_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/tabs.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="energy_and_coins" style="background: url(images/frame.png) center no-repeat; background-size: 190px; text-align: center;">
+            <div style="padding-top: 8px;">
+                <b>Energy: <span id="energy_counter">0</span> ⚡</b>
+                <br>
+                <b>Coins: <span id="coins_counter">0</span> 🪙</b>
+            </div>
+        </div>
+
+        <div id="main_panel">
+            <div id="tabs">
+                <button id="energysources_tab" onclick="changeBackgroundImage('images/wind_turbines_background.jpg'); toggleTab('energysources_list')" class="button-27" role="button">Energy Sources</button>
+                <button id="upgrades_tab" onclick="changeBackgroundImage('images/wind_turbines_background.jpg'); toggleTab('upgrade_list')" class="button-27" role="button">Upgrades ⚙️</button>
+                <button id="coin_converter" onclick="changeBackgroundImage('images/coin_converter_bg.png'); toggleTab('coin_converter_list')" class="button-27" role="button">Convert to coins</button>
+                <button id="" onclick="changeBackgroundImage('images/wind_turbines_background.jpg'); toggleTab('trascendent_list')" class="button-27" role="button"></button>
+                <button id="" onclick="changeBackgroundImage('images/wind_turbines_background.jpg'); toggleTab('items_list')" class="button-27" role="button"></button>         
+            </div>
+
+            <div id="energysources_list">
+
+
+
+                <div class="energysources_block" id="hamster_in_spinning_wheel">
+                    <img src="images/hamster on a spinning wheel.png">
+                    <span class="hidden-text">Hamster in a spinning wheel</span>
+                    <p>Generates 0.1⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="solar_panel">
+                    <img src="images/solar_panel_1.png">
+                    <span class="hidden-text">Solar Panel</span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="wind_turbine">
+                    <img src="images/wind_turbine.png">
+                    <span class="hidden-text">Wind Turbine</span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="coal_plant">
+                    <img src="images/coal_plant.png">
+                    <span class="hidden-text">Coal Plant</span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="hydroelectric_power_plant">
+                    <img src="images/hydroelectric_power_plant.png">
+                    <span class="hidden-text">Hydroelectric Power Plant</span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="geothermal_power_plant">
+                    <img src="images/geothermal_power_plant.png">
+                    <span class="hidden-text">Geothermal Power Plant</span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="nuclear power plant">
+                    <img src="images/nuclear_power_plant.png">
+                    <span class="hidden-text">Nuclear Power Plant</span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="nuclear_fusion">
+                    <img src="images/nuclear_fusion.png">
+                    <span class="hidden-text">Nuclear Fusion</span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="">
+                    <img src="images/">
+                    <span class="hidden-text"></span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="">
+                    <img src="images/">
+                    <span class="hidden-text"></span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="">
+                    <img src="images/">
+                    <span class="hidden-text"></span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="">
+                    <img src="images/">
+                    <span class="hidden-text"></span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="">
+                    <img src="images/">
+                    <span class="hidden-text"></span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="">
+                    <img src="images/">
+                    <span class="hidden-text"></span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="">
+                    <img src="images/">
+                    <span class="hidden-text"></span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+                <div class="energysources_block" id="">
+                    <img src="images/">
+                    <span class="hidden-text"></span>
+                    <p>Generates ⚡ per second</p>
+                    <button>Buy 1</button>         <button>Buy 10</button>        <button>Buy 100</button>
+                </div>
+
+
+    
+            </div>
+
+            <div id="upgrade_list" style="display: none;">
+                <p>To jest div "upgrade_list"</p>
+            </div>
+        
+            <div id="coin_converter_list" style="display: none;">
+
+            </div>
+        
+            <div id="trascendent_list" style="display: none;">
+
+            </div>
+        
+            <div id="items_list" style="display: none;">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="center-container">
+        <button style="background: url(images/main_click.png)" onclick="GainPower()" class="blinking-btn"></button>
+    </div>
+
+
+
+    <script src="scripts/click.js"></script>
+    <script src="scripts/tabs.js"></script>
+</body>
+</html>
